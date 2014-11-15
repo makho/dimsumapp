@@ -1,10 +1,11 @@
 <h1>Types Index</h1>
+<?php echo $this->Html->link('Add Type','/types/add'); ?>
 <?php if (!empty($types)): ?>
-<tabel>
+<table>
 <tr>
     <th>ID</th>
     <th>Name</th>
-     <th>price</th>
+     <th>Price</th>
     <th>Action</th>
     <th>Created</th>
 </tr>
@@ -17,7 +18,7 @@
     <td><?php echo $type['Type']['created']; ?></td>
         </tr>
 <?php endforeach; ?>
-</tabel>
+</table>
 <?php else: ?>
 <p>No dimsum type available</p>
 <?php endif; ?>

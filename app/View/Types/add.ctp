@@ -2,4 +2,4 @@
 <?php echo $this->Form->create('Type'); ?>
 <?php echo $this->Form->input('name'); ?>
 <?php echo $this->Form->input('price'); ?>
-<?php echo $this->Form->end('add'); ?>
+<?php echo $this->Form->end('add type'); ?>
