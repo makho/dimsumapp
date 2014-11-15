@@ -1,8 +1,8 @@
 <?php 
-class DimsumssController extends AppController{
+class DimsumsController extends AppController{
 public function index(){
 $dimsum=$this->Dimsum->find('all');
-$this->set('dimsums',$type);
+$this->set('dimsums',$dimsum);
 }
 
 public function add(){
